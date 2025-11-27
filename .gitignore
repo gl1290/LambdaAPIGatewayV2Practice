@@ -60,4 +60,5 @@ node_modules/
 .cdk/cdk.out/
 *.js
 *.d.ts
+!.cdk/bin/
 !.cdk/bin/*.js
