@@ -1,0 +1,26 @@
+{
+  "name": "lambda-apigw-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "lambda-apigw": "bin/lambda-apigw.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --all"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.8.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.0.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.0.0-alpha.0",
+    "aws-cdk": "^2.0.0",
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
