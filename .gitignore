@@ -52,3 +52,12 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Node.js / CDK
+node_modules/
+.cdk/node_modules/
+.cdk/dist/
+.cdk/cdk.out/
+*.js
+*.d.ts
+!.cdk/bin/*.js
